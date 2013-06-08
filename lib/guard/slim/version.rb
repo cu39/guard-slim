@@ -1,5 +1,7 @@
+require 'guard/guard'
+
 module Guard
-  class Slim
+  class Slim < Guard
     VERSION = '0.0.1'
   end
 end
