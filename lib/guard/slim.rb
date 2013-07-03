@@ -18,6 +18,7 @@ module Guard
     end
 
     def start
+      run_all if options[:all_on_start]
       UI.info 'Guard-Slim: Waiting for changes...'
     end
 
